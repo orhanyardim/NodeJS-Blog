@@ -1,27 +1,76 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-  }
-  
-  h1 {
-    color: #333;
-  }
-  
-  .posts .post {
-    margin-bottom: 20px;
-  }
-  
-  .posts .post h2 {
-    margin: 0;
-    color: #0066cc;
-  }
-  
-  .posts .post p {
-    color: #666;
-  }
-  
-  .post-content {
-    margin-bottom: 20px;
-  }
-  
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.posts .post {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.posts .post:hover {
+  transform: scale(1.02);
+}
+
+.posts .post h2 {
+  margin: 0 0 0.5rem 0;
+  color: #4CAF50;
+}
+
+.posts .post h2 a {
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+.posts .post h2 a:hover {
+  text-decoration: underline;
+}
+
+.posts .post p {
+  margin: 0;
+  color: #555;
+}
+
+.post-content {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -5,10 +5,14 @@
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <h1><%= post.title %></h1>
-  <div class="post-content">
-    <p><%= post.content %></p>
+  <header>
+    <h1><%= post.title %></h1>
+  </header>
+  <div class="container">
+    <div class="post-content">
+      <p><%= post.content %></p>
+    </div>
+    <a href="/">Back to Home</a>
   </div>
-  <a href="/">Back to Home</a>
 </body>
 </html>
