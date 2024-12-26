@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Blog</title>
+  <title>Orhan YARDIM's Blog</title>
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
   <header>
-    <h1>My Blog</h1>
+    <h1>Orhan YARDIM</h1>
+    <h2>Yazılım Geliştirici</h2>
+    <div class="social-media">
+      <a href="https://twitter.com/orhanyardim" target="_blank">
+        <img src="/images/twitter-icon.png" alt="Twitter">
+      </a>
+      <a href="https://github.com/orhanyardim" target="_blank">
+        <img src="/images/github-icon.png" alt="GitHub">
+      </a>
+      <a href="https://linkedin.com/in/orhanyardim" target="_blank">
+        <img src="/images/linkedin-icon.png" alt="LinkedIn">
+      </a>
+    </div>
   </header>
   <div class="container">
     <div class="posts">
@@ -14,9 +26,16 @@
         <div class="post">
           <h2><a href="/post/<%= post.topic %>/<%= post.id %>"><%= post.title %></a></h2>
           <p><%= post.summary %></p>
+          <div class="post-meta">
+            <span><%= post.author %></span> | <span><%= post.date %></span>
+          </div>
         </div>
       <% }) %>
     </div>
   </div>
+  <footer> 
+    <p>&copy; 2024 Orhan YARDIM. All rights reserved.</p> 
+    <p>Contact: <a href="mailto:orhan.yardim@example.com">orhan.yardim@example.com</a></p> 
+  </footer>
 </body>
 </html>

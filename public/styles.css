@@ -2,12 +2,12 @@ body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f7f7f7;
-  color: #333;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* White text */
 }
 
 header {
-  background-color: #4CAF50;
+  background-color: #333;
   color: white;
   padding: 1rem;
   text-align: center;
@@ -18,6 +18,19 @@ h1 {
   font-size: 2.5rem;
 }
 
+h2 {
+  font-size: 1.5rem;
+}
+
+header p {
+  margin: 0.5rem 0;
+}
+
+.social-media a img {
+  width: 30px;
+  margin: 0 5px;
+}
+
 .container {
   max-width: 800px;
   margin: 2rem auto;
@@ -25,7 +38,7 @@ h1 {
 }
 
 .posts .post {
-  background-color: white;
+  background-color: #2C3E50; /* Light navy blue */
   border: 1px solid #ddd;
   border-radius: 5px;
   margin-bottom: 1rem;
@@ -40,12 +53,12 @@ h1 {
 
 .posts .post h2 {
   margin: 0 0 0.5rem 0;
-  color: #4CAF50;
+  color: #3498db; /* Sky blue */
 }
 
 .posts .post h2 a {
   text-decoration: none;
-  color: #4CAF50;
+  color: #3498db;
 }
 
 .posts .post h2 a:hover {
@@ -54,11 +67,17 @@ h1 {
 
 .posts .post p {
   margin: 0;
-  color: #555;
+  color: #ecf0f1; /* Light gray */
+}
+
+.post-meta {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #b0b0b0;
 }
 
 .post-content {
-  background-color: white;
+  background-color: #2C3E50; /* Light navy blue */
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 1rem;
@@ -66,8 +85,15 @@ h1 {
   margin-bottom: 1rem;
 }
 
+footer { 
+  background-color: #333; 
+  color: white; 
+  padding: 1rem; 
+  text-align: center; 
+  margin-top: auto; /* Footer'ı sayfanın altına yerleştirir */
+}
 a {
-  color: #4CAF50;
+  color: #3498db;
   text-decoration: none;
 }
 
