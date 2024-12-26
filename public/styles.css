@@ -4,34 +4,59 @@ body {
   padding: 0;
   background-color: #121212; /* Dark background */
   color: #ffffff; /* White text */
+
 }
 
 header {
-  background-color: #333;
+  background: linear-gradient(90deg, #1f1f1f, #333);
   color: white;
   padding: 1rem;
   text-align: center;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  text-align: left;
+}
+
+.social-media a img {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.social-media a img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
 }
 
 h1 {
   margin: 0;
   font-size: 2.5rem;
+  animation: fadeIn 2s;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  animation: fadeIn 2s;
 }
 
-header p {
-  margin: 0.5rem 0;
-}
-
-.social-media a img {
-  width: 30px;
-  margin: 0 5px;
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 .container {
+  flex: 1;
   max-width: 800px;
   margin: 2rem auto;
   padding: 0 1rem;
@@ -44,11 +69,13 @@ header p {
   margin-bottom: 1rem;
   padding: 1rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .posts .post:hover {
   transform: scale(1.02);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #3B4A62; /* Darker navy blue */
 }
 
 .posts .post h2 {
@@ -68,6 +95,13 @@ header p {
 .posts .post p {
   margin: 0;
   color: #ecf0f1; /* Light gray */
+  font-size: 1rem;
+  line-height: 1.5;
+  transition: color 0.3s;
+}
+
+.posts .post p:hover {
+  color: #ffffff; /* Bright white */
 }
 
 .post-meta {
@@ -85,18 +119,36 @@ header p {
   margin-bottom: 1rem;
 }
 
-footer { 
-  background-color: #333; 
-  color: white; 
-  padding: 1rem; 
-  text-align: center; 
-  margin-top: auto; /* Footer'ı sayfanın altına yerleştirir */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: auto;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
+
 a {
   color: #3498db;
   text-decoration: none;
+  transition: color 0.3s;
 }
 
 a:hover {
+  color: #72c3fc; /* Lighter sky blue */
   text-decoration: underline;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #2980b9;
 }

@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "title": "Football World Cup 2024",
+      "summary": "An overview of the upcoming Football World Cup.",
+      "content": "The Football World Cup 2024 is set to be a thrilling event with teams from all over the world competing for the prestigious title. This blog explores the teams, fixtures, and key players to watch out for.",
+      "author": "John Cooper",
+      "date": "15 Mart 2024"
+    },
+    {
+      "id": 2,
+      "title": "Olympics 2024 Highlights",
+      "summary": "Key highlights and events to look forward to in the 2024 Olympics.",
+      "content": "The Olympics 2024 promises to be an exciting event with a wide range of sports and disciplines. This blog highlights the main events, athletes, and storylines to watch out for.",
+      "author": "John Cooper",
+      "date": "15 Mart 2024"
+    }
+  ]
+  
