@@ -7,5 +7,14 @@
     "author": "Orhan Yardım",
     "date": "25 Aralık 2024",
     "image": "/images/study_tips.jpg"
+  },
+  {
+    "id": 2,
+    "title": "AI Ethics: Navigating the Moral Landscape",
+    "summary": "Understanding the ethical considerations of artificial intelligence.",
+    "content": "Yapay zeka (AI) teknolojisinin hızla gelişmesi, beraberinde etik ve ahlaki soruları da getiriyor. AI sistemleri, karar verme süreçlerinde kullanıldıkça, bu sistemlerin etik açıdan nasıl yönlendirileceği konusu büyük önem kazanıyor. AI'nın tarafsız ve adil kararlar alması gerektiği konusunda geniş bir mutabakat var. Ancak, bu sistemlerin geliştirildiği veri setleri ve algoritmaların tarafsızlığı konusunda dikkatli olunması gerekiyor. Ayrıca, AI'nın insan mahremiyetine ve güvenliğine olan etkileri de göz önünde bulundurulmalı. Etik ilkeler ve rehberler, AI teknolojilerinin sorumlu bir şekilde geliştirilmesini ve kullanılmasını sağlamak için kritik bir rol oynuyor. Gelecekte, AI'nın etik sınırlarını ve kullanım alanlarını daha iyi anlamak ve yönlendirmek, toplum için büyük bir zorluk ve fırsat olacaktır.",
+    "author": "Orhan Yardım",
+    "date": "20 Şubat 2025",
+    "image": "/images/ai_ethics.jpg"
   }
 ]

@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "title": "The Evolution of Software Development",
+      "summary": "Tracing the history and future of software development.",
+      "content": "Yazılım geliştirme süreci, yıllar içinde büyük bir evrim geçirdi. İlk bilgisayar programlarından günümüzün karmaşık yazılım projelerine kadar, bu alan sürekli olarak gelişiyor. Başlangıçta, yazılım geliştirme manuel kodlama ve basit algoritmalarla sınırlıydı. Ancak, modern yazılım geliştirme araçları ve dillerinin ortaya çıkışıyla, süreç çok daha verimli ve kullanıcı dostu hale geldi. Çevik metodolojiler ve DevOps uygulamaları, yazılım geliştirme süreçlerini hızlandırdı ve daha işbirlikçi hale getirdi. Gelecekte, yapay zeka destekli yazılım geliştirme araçları, programcıların daha hızlı ve daha doğru kod yazmalarını sağlayacak. Ayrıca, bulut tabanlı çözümler ve mikro hizmet mimarileri, yazılımın ölçeklenebilirliğini ve esnekliğini artırıyor. Yazılım geliştirme, teknolojinin kalbinde yer almaya devam ediyor ve her geçen gün yeni yeniliklerle daha ileriye taşınıyor.",
+      "author": "Orhan Yardım",
+      "date": "10 Şubat 2025",
+      "image": "/images/software_development.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Machine Learning in Healthcare",
+        "summary": "The impact of machine learning on medical advancements.",
+        "content": "Makine öğreniminin sağlık sektöründeki etkisi, tıbbi araştırmalarda ve hasta bakımında devrim yaratıyor. Makine öğrenimi algoritmaları, büyük veri kümelerini analiz ederek hastalıkların erken teşhisine ve doğru tedavi planlarının oluşturulmasına yardımcı oluyor. Özellikle radyoloji ve görüntüleme alanında, makine öğrenimi destekli yazılımlar, tıbbi görüntüleri daha hızlı ve doğru bir şekilde analiz edebiliyor. Bu, doktorların teşhis ve tedavi sürecini hızlandırarak, hastaların daha iyi bakım almasını sağlıyor. Gelecekte, makine öğrenimi ile geliştirilen kişiselleştirilmiş tıp uygulamaları, her bireyin genetik ve tıbbi geçmişine uygun tedavi yöntemleri sunacak. Bu teknoloji, sağlık hizmetlerini daha erişilebilir, etkili ve verimli hale getirecek.",
+        "author": "Orhan Yardım",
+        "date": "20 Nisan 2025",
+        "image": "/images/machine_learning_healthcare.jpg"
+      }
+  ]
