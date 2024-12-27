@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "title": "Study Tips for Students",
+    "summary": "Effective study strategies for students.",
+    "content": "Öğrencilik hayatım boyunca, etkili çalışma yöntemleri keşfetmek benim için oldukça önemliydi. Zaman yönetimi, başarılı bir öğrenci olmanın anahtarlarından biridir. Günlük bir çalışma programı oluşturarak, her ders için yeterli zaman ayırmak başarıyı getirir. Not tutmak ve özetler çıkarmak da bilgilerin hafızada kalıcılığını artırır. Grup çalışmaları, fikir alışverişi ve sorulara farklı bakış açıları kazandırır. Ayrıca, düzenli molalar vermek ve dinlenmek de zihinsel yorgunluğu azaltır. Kendime uygun çalışma yöntemlerini buldukça, sınavlarda ve projelerde daha başarılı oldum.",
+    "author": "Orhan Yardım",
+    "date": "15 Aralık 2024",
+    "image": "/images/study_tips.jpg"
+  }
+]

@@ -64,42 +64,48 @@ h2 {
 
 .container {
   flex: 1;
-  max-width: 800px;
+  max-width: 1200px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
 
-.posts .post {
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.post-card {
   background-color: #2C3E50; /* Light navy blue */
   border: 1px solid #ddd;
   border-radius: 5px;
-  margin-bottom: 1rem;
   padding: 1rem;
+  flex: 1 1 calc(25% - 1rem); /* 4 kart yan yana sığar */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.3s;
 }
 
-.posts .post:hover {
-  transform: scale(1.02);
+.post-card:hover {
+  transform: scale(1.05);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   background-color: #3B4A62; /* Darker navy blue */
 }
 
-.posts .post h2 {
+.post-card h2 {
   margin: 0 0 0.5rem 0;
   color: #3498db; /* Sky blue */
 }
 
-.posts .post h2 a {
+.post-card h2 a {
   text-decoration: none;
   color: #3498db;
 }
 
-.posts .post h2 a:hover {
+.post-card h2 a:hover {
   text-decoration: underline;
 }
 
-.posts .post p {
+.post-card p {
   margin: 0;
   color: #ecf0f1; /* Light gray */
   font-size: 1rem;
@@ -107,7 +113,7 @@ h2 {
   transition: color 0.3s;
 }
 
-.posts .post p:hover {
+.post-card p:hover {
   color: #ffffff; /* Bright white */
 }
 
@@ -115,15 +121,6 @@ h2 {
   margin-top: 0.5rem;
   font-size: 0.9rem;
   color: #b0b0b0;
-}
-
-.post-content {
-  background-color: #2C3E50; /* Light navy blue */
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 1rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  margin-bottom: 1rem;
 }
 
 footer {
@@ -158,4 +155,10 @@ a:hover {
 
 .btn:hover {
   background-color: #2980b9;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }

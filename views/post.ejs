@@ -8,12 +8,19 @@
   <header>
     <h1><%= post.title %></h1>    
   </header>
-  <div class="container">
-    <div class="post-content">
-      <p class="post-meta">by <span><%= post.author %></span> | <span><%= post.date %></span></p>
-      <p><%= post.content %></p>
-    </div>
-    <a class="btn" href="/">Back to Home</a>
+  <div class="container"> 
+    <div class="post-content post-card">        
+      <p class="post-meta">by <span><%= post.author %></span> | <span><%= post.date %></span></p> <hr>
+      <br>
+      <img src="<%= post.image %>" alt="<%= post.title %>" class="post-image centered-image">
+      <br> <br>
+      <p class="lead"><%= post.content.split('\n\n')[0] %></p> 
+      <% for (let i = 1; i < post.content.split('\n\n').length; i++) { %> 
+        <p><%= post.content.split('\n\n')[i] %></p>
+      <% } %> 
+    </div> 
+    <br> <br>
+    <a class="btn" href="/">Back to Home</a> 
   </div>
   <footer> 
     <p>&copy; 2024 Orhan YARDIM. All rights reserved.</p> 
@@ -21,3 +28,4 @@
   </footer>
 </body>
 </html>
+
