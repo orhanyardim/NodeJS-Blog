@@ -4,7 +4,9 @@ body {
   padding: 0;
   background-color: #121212; /* Dark background */
   color: #ffffff; /* White text */
-
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
@@ -24,6 +26,11 @@ header {
 
 .title {
   text-align: left;
+}
+
+.social-media {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .social-media a img {

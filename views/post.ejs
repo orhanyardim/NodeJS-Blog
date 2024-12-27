@@ -6,13 +6,18 @@
 </head>
 <body>
   <header>
-    <h1><%= post.title %></h1>
+    <h1><%= post.title %></h1>    
   </header>
   <div class="container">
     <div class="post-content">
+      <p class="post-meta">by <span><%= post.author %></span> | <span><%= post.date %></span></p>
       <p><%= post.content %></p>
     </div>
-    <a href="/">Back to Home</a>
+    <a class="btn" href="/">Back to Home</a>
   </div>
+  <footer> 
+    <p>&copy; 2024 Orhan YARDIM. All rights reserved.</p> 
+    <p>Contact: <a href="mailto:orhan.yardim@example.com">orhan.yardim@example.com</a></p> 
+  </footer>
 </body>
 </html>
