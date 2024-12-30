@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Paneli</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Admin Paneli</h1>
+    <a class="btn logout" href="/">Çıkış Yap</a>
+  </header>
+  <div class="container">
+    <h2>Tüm Bloglar</h2>
+    <table class="admin-table">
+      <thead>
+        <tr>
+          <th>Sıra</th>
+          <th>Başlık</th>
+          <th>Özet</th>
+          <th>Yazar</th>
+          <th>Tarih</th>
+          <th>İşlemler</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% posts.forEach((post, index) => { %>
+          <tr>
+            <td><%= index + 1 %></td>
+            <td><%= post.title %></td>
+            <td><%= post.summary %></td>
+            <td><%= post.author %></td>
+            <td><%= post.date %></td>
+            <td>
+              <a href="/post/<%= post.topic %>/<%= post.id %>">Göster</a>
+            </td>
+          </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
