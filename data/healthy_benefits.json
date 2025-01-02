@@ -6,6 +6,16 @@
     "content": "Sağlıklı bir yaşam sürmek için dengeli ve besleyici bir diyetin önemini her zaman vurguluyorum. Doğru beslenme, enerji seviyelerimi artırır, bağışıklık sistemimi güçlendirir ve genel sağlık durumumu iyileştirir. Meyve, sebze, tam tahıllar ve protein açısından zengin gıdalarla beslenmek, vücuduma gerekli vitamin ve mineralleri sağlar. Ayrıca, işlenmiş ve şekerli gıdalardan uzak durmak, kilo kontrolü ve uzun vadeli sağlık için kritik öneme sahiptir. Sağlıklı bir diyetle birlikte düzenli egzersiz yapmak, kendimi hem fiziksel hem de zihinsel olarak daha iyi hissetmemi sağlıyor. Sağlıklı beslenme alışkanlıklarını benimsemek, yaşam kalitesini önemli ölçüde artırır.",
     "author": "Orhan Yardım",
     "date": "15 Aralık 2024",
-    "image": "/images/study_tips.jpg"
+    "image": "/images/healty_benefits.jpg"
+  },
+  {
+    "id": 2,
+    "title": "The Health Benefits of a Balanced Diet",
+    "summary": "Understanding the importance of a balanced diet for maintaining good health.",
+    "content": "Sağlıklı bir yaşam sürdürmek için dengeli beslenme çok önemlidir. Dengeli bir diyet, vücudunuzun ihtiyaç duyduğu tüm besinleri almanızı sağlar ve hastalıklara karşı direncinizi artırır. Bu yazıda, dengeli beslenmenin sağlık üzerindeki faydalarını inceleyeceğiz.\n\nDengeli bir diyet, meyve, sebze, tam tahıllar, protein ve sağlıklı yağlar gibi çeşitli gıdaları içerir. Meyve ve sebzeler, vücudun ihtiyaç duyduğu vitaminler, mineraller ve lif açısından zengindir. Örneğin, portakal ve kivi gibi C vitamini açısından zengin meyveler, bağışıklık sisteminizi güçlendirir ve hastalıklara karşı korunmanıza yardımcı olur. Lif açısından zengin gıdalar ise sindirim sisteminizi düzenler ve bağırsak sağlığını destekler.\n\nProtein, kas yapımı ve onarımı için gereklidir. Et, balık, baklagiller ve süt ürünleri gibi protein açısından zengin gıdalar, kaslarınızın güçlü kalmasını sağlar. Ayrıca, sağlıklı yağlar da vücudunuzun enerji üretimi ve beyin fonksiyonları için önemlidir. Avokado, zeytinyağı ve fındık gibi sağlıklı yağ kaynakları, kalp sağlığınızı korur ve kötü kolesterol seviyelerini düşürür.\n\nDengeli beslenme aynı zamanda kilo kontrolü sağlar. Aşırı kilolu veya obez olmak, diyabet, kalp hastalığı ve yüksek tansiyon gibi ciddi sağlık sorunlarına yol açabilir. Dengeli bir diyet, sağlıklı bir kiloyu korumanıza yardımcı olarak bu riskleri azaltır. Ayrıca, düzenli ve dengeli beslenme, enerji seviyelerinizi yüksek tutar ve genel yaşam kalitenizi artırır.\n\nSonuç olarak, dengeli beslenme, sağlıklı bir yaşam sürdürmek için temel bir gerekliliktir. Doğru besinleri tüketmek, vücudunuzun ihtiyaçlarını karşılar ve hastalıklara karşı korunmanıza yardımcı olur. Sağlıklı bir yaşam tarzı benimsemek için dengeli bir diyetin önemini unutmayın.",
+    "author": "Dr. Ayşe Sağlık",
+    "date": "2 Ocak 2025",
+    "image": "/images/balanced_diet.jpg"
   }
+  
 ]
