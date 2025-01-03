@@ -2,27 +2,26 @@ body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #121212; /* Dark background */
-  color: #ffffff; /* White text */
+  background-color: #f5f5f5; /* Light background */
+  color: #333333; /* Dark text */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
 header {
-  background: linear-gradient(90deg, #1f1f1f, #333);
-  color: white;
+  background: linear-gradient(90deg, #f0f0f0, #e0e0e0);
+  color: #333333;
   padding: 1rem;
   text-align: center;
   position: relative;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-align: center;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -89,9 +88,9 @@ header {
 }
 
 .post-card {
-  background-color: #2C3E50; /* Light navy blue */
+  background-color: #ffffff; /* Light background for post cards */
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 20px;
   padding: 1rem;
   flex: 1 1 calc(25% - 1rem); /* 4 kart yan yana sığar */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -101,7 +100,7 @@ header {
 .post-card:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  background-color: #3B4A62; /* Darker navy blue */
+  background-color: #f0f0f0; /* Lighter background on hover */
 }
 
 .post-card h2 {
@@ -120,20 +119,20 @@ header {
 
 .post-card p {
   margin: 0;
-  color: #ecf0f1; /* Light gray */
+  color: #333333; /* Dark text */
   font-size: 1rem;
   line-height: 1.5;
   transition: color 0.3s;
 }
 
 .post-card p:hover {
-  color: #ffffff; /* Bright white */
+  color: #666666; /* Slightly lighter text on hover */
 }
 
 .post-meta {
   margin-top: 0.5rem;
   font-size: 0.9rem;
-  color: #b0b0b0;
+  color: #999999;
 }
 
 .read-more { 
@@ -153,12 +152,12 @@ header {
 }
 
 footer {
-  background-color: #333;
-  color: white;
+  background-color: #f0f0f0;
+  color: #333333;
   padding: 1rem;
   text-align: center;
   margin-top: auto;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
 a {
@@ -172,18 +171,36 @@ a:hover {
   text-decoration: underline;
 }
 
-.btn {
+.btn, .admin-login, .logout {
   display: inline-block;
   padding: 0.5rem 1rem;
-  background-color: #3498db;
   color: white;
   border-radius: 5px;
   text-align: center;
+  text-decoration: none;
   transition: background-color 0.3s;
 }
 
-.btn:hover {
+.btn {
+  background-color: #3498db;
+}
+
+.btn:hover, .admin-login:hover {
   background-color: #2980b9;
+}
+
+.admin-login {
+  background-color: #3498db;
+  margin-left: 1rem;
+}
+
+.logout {
+  background-color: #e74c3c;
+  margin-left: 1rem;
+}
+
+.logout:hover {
+  background-color: #c0392b;
 }
 
 .clearfix::after {
@@ -192,23 +209,6 @@ a:hover {
   clear: both;
 }
 
-.admin-login {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background-color: #3498db;
-  color: white;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  margin-left: 1rem;
-  transition: background-color 0.3s;
-}
-
-.admin-login:hover {
-  background-color: #2980b9;
-}
-
-/* Admin Tablo Stil */
 .admin-table {
   width: 100%;
   border-collapse: collapse;
@@ -224,19 +224,19 @@ a:hover {
 }
 
 .admin-table th {
-  background-color: #34495e;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #333333;
   text-transform: uppercase;
 }
 
 .admin-table tbody tr {
-  background-color: #2C3E50;
-  color: #ffffff;
+  background-color: #f5f5f5;
+  color: #333333;
 }
 
 .admin-table tbody tr:hover {
-  background-color: #3B4A62;
-  color: #ffffff;
+  background-color: #e0e0e0;
+  color: #333333;
 }
 
 .admin-table tbody tr td a {
@@ -250,19 +250,83 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Admin logout buton Stil */
-.logout {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background-color: #e74c3c;
-  color: white;
-  border-radius: 5px;
+/* General styles for blog images */
+.blog-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.main-blog-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Login page styles */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* Light background */
+}
+
+.login-card {
+  background-color: #ffffff; /* White background for card */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  text-decoration: none;
-  margin-left: 1rem;
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-title {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: #333333; /* Dark text */
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #666666; /* Gray text */
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.btn.login-btn {
+  background-color: #3498db; /* Blue button */
+  color: white;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
   transition: background-color 0.3s;
 }
 
-.logout:hover {
-  background-color: #c0392b;
+.btn.login-btn:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+.login-footer {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
 }

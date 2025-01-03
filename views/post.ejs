@@ -11,8 +11,8 @@
   <div class="container"> 
     <div class="post-content post-card">        
       <p class="post-meta">by <span><%= post.author %></span> | <span><%= post.date %></span></p> <hr>
-      <br>
-      <img src="<%= post.image %>" alt="<%= post.title %>" class="post-image centered-image">
+      <br>      
+      <img src="<%= post.image %>" alt="<%= post.title %>" class="blog-image">
       <br> <br>
       <p class="lead"><%= post.content.split('\n\n')[0] %></p> 
       <% for (let i = 1; i < post.content.split('\n\n').length; i++) { %> 

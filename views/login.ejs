@@ -1,19 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-  <title>Admin Login</title>
-  <link rel="stylesheet" href="/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <div class="login-container">
-    <form action="/admin/login" method="POST">
-      <h2>Admin Giriş</h2>
-      <label for="username">Kullanıcı Adı</label>
-      <input type="text" id="username" name="username" required>
-      <label for="password">Şifre</label>
-      <input type="password" id="password" name="password" required>
-      <button type="submit">Giriş Yap</button>
-    </form> 
-  </div>
+    <div class="login-container">
+        <div class="login-card">
+            <h2 class="login-title">Hoşgeldiniz</h2>
+            <form action="/admin/login" method="POST">
+                <div class="form-group">
+                    <label for="username">Kullanıcı Adı</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Şifre</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn login-btn">Giriş Yap</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>

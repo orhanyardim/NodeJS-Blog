@@ -1,0 +1,35 @@
+NodeJS-Blog
+│
+├── views
+│   ├── index.ejs          
+│   ├── post.ejs           
+│   ├── login.ejs
+│   └── admin.ejs
+│
+├── data
+│   ├── technology.json    
+│   ├── travel.json        
+│   ├── health.json        
+│   ├── education.json     
+│   ├── recipes.json       
+│   ├── sports.json        
+│   ├── football_world.json
+│   ├── future_of_ai.json
+│   ├── healthy_benefits.json
+│   ├── olympics_2024.json
+│   ├── quick_easy_dinner_ideas.json
+│   ├── software_development.json
+│   └── study_tips.json
+│
+├── public
+│   ├── images
+│   │   ├── twitter-icon.png
+│   │   ├── github-icon.png
+│   │   └── linkedin-icon.png
+│   ├── styles.css
+│   └── script.js
+│
+├── app.js
+├── package.json
+├── package-lock.json
+└── README.md
